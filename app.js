@@ -20,5 +20,6 @@ function handleError() {
 }
 function addNews() {
   const data = JSON.parse(this.responseText);
-  console.log(data);
+  const response = data.response;
+  console.log(response);
 }
